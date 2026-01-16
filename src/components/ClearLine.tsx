@@ -200,8 +200,6 @@ export default function ClearLine() {
     URL.revokeObjectURL(url);
   };
 
-  const handleImport = () => fileInputRef.current?.click();
-
   const handleFileChange = async (e: React.ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0];
     if (!file) return;
