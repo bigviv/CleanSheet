@@ -1,0 +1,16 @@
+{
+  "name": "ClearLine",
+  "short_name": "ClearLine",
+  "description": "Local-first audit text rewriter. Works entirely offline after first load.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0366d6",
+  "orientation": "any",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ],
+  "categories": ["productivity", "utilities"],
+  "screenshots": []
+}
